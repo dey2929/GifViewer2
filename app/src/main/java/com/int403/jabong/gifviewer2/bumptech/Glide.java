@@ -241,7 +241,7 @@ public class Glide
         drawableCenterCrop = new GifBitmapWrapperTransformation(bitmapPool, bitmapCenterCrop);
 
         bitmapFitCenter = new FitCenter(bitmapPool);
-        drawableFitCenter = new GifBitmapWrapperTransformation(bitmapPool, bitmapFitCenter);
+        drawableFitCenter = new GifBitmapWrapperTransformation(bitmapPool,bitmapFitCenter); /*hello*//*GifBitmapWrapperTransformation(bitmapPool, bitmapFitCenter);*/
     }
 
     /**

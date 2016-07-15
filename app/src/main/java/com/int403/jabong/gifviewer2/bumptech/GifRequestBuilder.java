@@ -159,12 +159,12 @@ public class GifRequestBuilder<ModelType>
      * @return This request builder..
      */
     public GifRequestBuilder<ModelType> fitCenter() {
-        return transformFrame(glide.getBitmapFitCenter());
+        return transformFrame(glide.getBitmapCenterCrop());/*transformFrame(glide.getBitmapFitCenter());*/
     }
 
     /**
      * Transforms each frame of the GIF using the given transformations.
-     *
+     *https://github.com/dey2929/BMIHealth.git
      * @see #centerCrop()
      * @see #fitCenter()
      * @see #transformFrame(com.int403.jabong.gifviewer2.bumptech.load.Transformation[])
